@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare let $: any;
 
 @Component({
   selector: 'app-corporate',
@@ -12,4 +13,9 @@ export class CorporateComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openModal(){
+    // console.log('open modal');
+    alert('Managers Profile');
+    // $('#teams').modal();
+  }
 }

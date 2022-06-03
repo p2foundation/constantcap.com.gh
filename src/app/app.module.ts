@@ -19,6 +19,7 @@ import { InvestResearchComponent } from './pages/services/invest-research/invest
 import { InvestAdvisoryComponent } from './pages/services/invest-advisory/invest-advisory.component';
 import { StraAdvisoryComponent } from './pages/services/stra-advisory/stra-advisory.component';
 import { PrincInvestmentComponent } from './pages/services/princ-investment/princ-investment.component';
+import { TeamComponent } from './pages/corporate/team/team.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { PrincInvestmentComponent } from './pages/services/princ-investment/prin
     InvestResearchComponent,
     InvestAdvisoryComponent,
     StraAdvisoryComponent,
-    PrincInvestmentComponent
+    PrincInvestmentComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

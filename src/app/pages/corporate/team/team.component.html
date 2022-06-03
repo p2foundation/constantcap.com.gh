@@ -1,0 +1,379 @@
+<!-- /.preloader -->
+<div class="page-wrapper">
+    <header class="main-header clearfix">
+        <nav class="main-menu clearfix">
+            <div class="main-menu-wrapper clearfix">
+                <div class="main-menu-wrapper__left">
+                    <div class="main-menu-wrapper__logo">
+                        <a routerLink="/">
+                            <img src="assets/images/resources/logo-3.png" style="height: 50px; width: 120px"
+                                alt="Constant">
+                        </a>
+                    </div>
+                    <div class="main-menu-wrapper__main-menu">
+                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                        <ul class="main-menu__list">
+                            <li class="">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="">
+                                <a routerLink="/about-us" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{exact: true}">Corporate</a>
+                            </li>
+                            <li class="dropdown">
+                                <a routerLink="/services" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{exact: true}">Services</a>
+                                <ul>
+                                    <li>
+                                        <a routerLink="/sec-trading" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{exact: true}">Securities Trading</a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a routerLink="/fin-cap-market" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{exact: true}">Financings <br>Capital Markets</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/invest-research" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{exact: true}">Investment Research</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/invest-advisory" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{exact: true}">Investment Advisory</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/stra-advisory" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{exact: true}">Strategic Advisory</a>
+                                    </li>
+                                    <li><a routerLink="/princ-investment" routerLinkActive="active"
+                                            [routerLinkActiveOptions]="{exact: true}">Private Equity</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="">
+                                <a routerLink="/research-center" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{exact: true}">Research</a>
+                                <!-- <ul>
+                      <li><a href="cases.html">Cases</a></li>
+                      <li><a href="cases-2.html">Cases Two</a></li>
+                      <li><a href="case-details.html">Case Details</a></li>
+                    </ul> -->
+                            </li>
+                            <li class="">
+                                <a routerLink="/client-center" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{exact: true}">Client Center</a>
+                            </li>
+                            <li>
+                                <a routerLink="/contact-us" routerLinkActive="active"
+                                    [routerLinkActiveOptions]="{exact: true}">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main-menu-wrapper__right">
+                    <!-- <div class="main-menu-wrapper__call">
+                <div class="main-menu-wrapper__call-icon">
+                  <span class="icon-phone-call"></span>
+                </div>
+                <div class="main-menu-wrapper__call-number">
+                  <p>Need help? Talk to an expert</p>
+                  <h5><a href="tel:0302500386">( 030 ) 250 - 0386</a></h5>
+                </div>
+              </div> -->
+                    <div class="main-menu-wrapper__search-cat">
+                        <a href="#" class="main-menu-wrapper__search search-toggler icon-magnifying-glass"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="stricky-header stricked-menu main-menu">
+        <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+    </div><!-- /.stricky-header -->
+
+    <!--Page Header Start-->
+    <section class="page-header">
+        <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
+        </div>
+        <div class="page-header-shape-1 float-bob-x-6"></div>
+        <div class="page-header-shape-2 float-bob-x-7"></div>
+        <div class="container">
+            <div class="page-header__inner">
+                <ul class="thm-breadcrumb list-unstyled">
+                    <li><a href="index.html">Home</a></li>
+                    <li><span>/</span></li>
+                    <li>Team</li>
+                </ul>
+                <h2>Team Carousel</h2>
+            </div>
+        </div>
+    </section>
+    <!--Page Header End-->
+
+    <!--Team Page Start-->
+    <section class="team-page team-page--carousel">
+        <div class="container">
+            <div class="thm-swiper__slider swiper-container team-carousel" data-swiper-options='{
+                "slidesPerView": 1,
+                "slidesPerGroup": 1,
+                "spaceBetween": 0,
+                "loop": true,
+                "autoplay": {
+                    "delay": 5000
+                },
+                "pagination": {
+                    "el": "#team-carousel-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                },
+                "breakpoints": {
+                    "0": {
+                        "slidesPerView": 1,
+                        "slidesPerGroup": 1,
+                        "spaceBetween": 0
+                    },
+                    "768": {
+                        "slidesPerView": 2,
+                        "slidesPerGroup": 2,
+                        "spaceBetween": 30
+                    },
+                    "992": {
+                        "slidesPerView": 3,
+                        "slidesPerGroup": 3,
+                        "spaceBetween": 30
+                    }
+                }
+            }'>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-5.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Ben Ahiaklo</h3>
+                                    <p class="team-one__title">Managing Director</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-6.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Ike Echeruo</h3>
+                                    <p class="team-one__title">Managing Partner</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-1.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Sarah Albert</h3>
+                                    <p class="team-one__title">Consultant</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-2.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Mike Hardson</h3>
+                                    <p class="team-one__title">Advisor</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-3.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Christine Eve</h3>
+                                    <p class="team-one__title">Manager</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-4.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Kevin Martin</h3>
+                                    <p class="team-one__title">Co Founder</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-5.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Jessica Brown</h3>
+                                    <p class="team-one__title">Director</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-1.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Sarah Albert</h3>
+                                    <p class="team-one__title">Consultant</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <!--Team One Single-->
+                        <div class="team-one__single">
+                            <div class="team-one__img">
+                                <img src="assets/images/team/team-page-3.jpg" alt="">
+                                <div class="team-one__content">
+                                    <h3 class="team-one__name">Christine Eve</h3>
+                                    <p class="team-one__title">Manager</p>
+                                </div>
+                                <ul class="list-unstyled team-one__social">
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination" id="team-carousel-pagination"></div>
+            </div><!-- /.thm-swiper__slider swiper-container -->
+        </div>
+    </section>
+    <!--Team Page End-->
+
+</div><!-- /.page-wrapper -->
+
+<div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <!-- /.mobile-nav__overlay -->
+    <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+        <div class="logo-box">
+            <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="155"
+                    alt="" /></a>
+        </div>
+        <!-- /.logo-box -->
+        <div class="mobile-nav__container"></div>
+        <!-- /.mobile-nav__container -->
+
+        <ul class="mobile-nav__contact list-unstyled">
+            <li>
+                <i class="fa fa-envelope"></i>
+                <a href="mailto:info@constantcap.com.gh">info@constantcap.com.gh</a>
+            </li>
+            <li>
+                <i class="fa fa-phone-alt"></i>
+                <a href="tel:0302500386">030 2500 386</a>
+            </li>
+        </ul><!-- /.mobile-nav__contact -->
+        <div class="mobile-nav__top">
+            <div class="mobile-nav__social">
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-pinterest-p"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div><!-- /.mobile-nav__social -->
+        </div><!-- /.mobile-nav__top -->
+
+
+
+    </div>
+    <!-- /.mobile-nav__content -->
+</div>
+<!-- /.mobile-nav__wrapper -->
+
+<div class="search-popup">
+    <div class="search-popup__overlay search-toggler"></div>
+    <!-- /.search-popup__overlay -->
+    <div class="search-popup__content">
+        <form action="#">
+            <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+            <input type="text" id="search" placeholder="Search Here..." />
+            <button type="submit" aria-label="search submit" class="thm-btn">
+                <i class="icon-magnifying-glass"></i>
+            </button>
+        </form>
+    </div>
+    <!-- /.search-popup__content -->
+</div>
+<!-- /.search-popup -->
+
+<a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>

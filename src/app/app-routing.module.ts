@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ClientComponent } from './pages/client/client.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CorporateComponent } from './pages/corporate/corporate.component';
+import { TeamComponent } from './pages/corporate/team/team.component';
 import { FaqComponent } from './pages/faq/faq.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
@@ -18,6 +19,7 @@ import { StraAdvisoryComponent } from './pages/services/stra-advisory/stra-advis
 const routes: Routes = [
   {path:'', component: HomePageComponent},
   {path: 'about-us', component: CorporateComponent},
+  {path: 'team', component: TeamComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'sec-trading', component: SecTradingComponent},
   {path: 'fin-cap-market', component: FinCapMarketComponent},
@@ -28,7 +30,7 @@ const routes: Routes = [
   {path: 'client-center', component: ClientComponent},
   {path: 'research-center', component: ResearchComponent},
   {path: 'contact-us', component: ContactComponent},
-  {path: 'faqs', component: FaqComponent},
+  {path: 'faq', component: FaqComponent},
   {path: '**', component: NotFoundComponent}
 ];
 

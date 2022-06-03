@@ -623,7 +623,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main-menu .main-menu__list>li+li,
 .stricky-header .main-menu__list>li+li {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .main-menu .main-menu__list>li>a,
@@ -707,7 +707,7 @@ input[type="search"]::-webkit-search-results-decoration {
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 240px;
+    min-width: 250px;
     background-color: #fff;
     flex-direction: column;
     justify-content: flex-start;
@@ -6785,7 +6785,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .page-header {
     position: relative;
     display: block;
-    padding: 210px 0 118px;
+    padding: 170px 0 118px;
     background-color: var(--oslim-black);
     overflow: hidden;
     z-index: 1;
@@ -8498,7 +8498,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .work-together-two {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 50px 0 120px;
 }
 
 .work-together-two__left {

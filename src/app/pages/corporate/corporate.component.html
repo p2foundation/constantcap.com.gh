@@ -1,443 +1,450 @@
 <div class="page-wrapper">
-    <header class="main-header clearfix">
-        <nav class="main-menu clearfix">
-            <div class="main-menu-wrapper clearfix">
-                <div class="main-menu-wrapper__left">
-                    <div class="main-menu-wrapper__logo">
-                        <a routerLink="/">
-                            <img src="assets/images/resources/logo-3.png" style="height: 50px; width: 120px"
-                                alt="Constant">
-                        </a>
-                    </div>
-                    <div class="main-menu-wrapper__main-menu">
-                        <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
-                        <ul class="main-menu__list">
-                            <li class="">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li class="">
-                                <a routerLink="/about-us" routerLinkActive="active"
-                                    [routerLinkActiveOptions]="{exact: true}">Corporate</a>
-                            </li>
-                            <li class="dropdown">
-                                <a routerLink="/services" routerLinkActive="active"
-                                    [routerLinkActiveOptions]="{exact: true}">Services</a>
-                                <ul>
-                                    <li>
-                                        <a routerLink="/sec-trading" routerLinkActive="active"
-                                            [routerLinkActiveOptions]="{exact: true}">Securities Trading</a>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a routerLink="/fin-cap-market" routerLinkActive="active"
-                                            [routerLinkActiveOptions]="{exact: true}">Financings <br>Capital Markets</a>
-                                    </li>
-                                    <li>
-                                        <a routerLink="/invest-research" routerLinkActive="active"
-                                            [routerLinkActiveOptions]="{exact: true}">Investment Research</a>
-                                    </li>
-                                    <li>
-                                        <a routerLink="/invest-advisory" routerLinkActive="active"
-                                            [routerLinkActiveOptions]="{exact: true}">Investment Advisory</a>
-                                    </li>
-                                    <li>
-                                        <a routerLink="/stra-advisory" routerLinkActive="active"
-                                            [routerLinkActiveOptions]="{exact: true}">Strategic Advisory</a>
-                                    </li>
-                                    <li><a routerLink="/princ-investment" routerLinkActive="active"
-                                            [routerLinkActiveOptions]="{exact: true}">Private Equity</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="">
-                                <a routerLink="research-center" routerLinkActive="active"
-                                    [routerLinkActiveOptions]="{exact: true}">Research</a>
-                                <!-- <ul>
-                      <li><a href="cases.html">Cases</a></li>
-                      <li><a href="cases-2.html">Cases Two</a></li>
-                      <li><a href="case-details.html">Case Details</a></li>
-                    </ul> -->
-                            </li>
-                            <li class="">
-                                <a routerLink="/client-center" routerLinkActive="active"
-                                    [routerLinkActiveOptions]="{exact: true}">Client Center</a>
-                            </li>
-                            <li>
-                                <a routerLink="/contact-us" routerLinkActive="active"
-                                    [routerLinkActiveOptions]="{exact: true}">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="main-menu-wrapper__right">
-                    <!-- <div class="main-menu-wrapper__call">
-                <div class="main-menu-wrapper__call-icon">
-                  <span class="icon-phone-call"></span>
-                </div>
-                <div class="main-menu-wrapper__call-number">
-                  <p>Need help? Talk to an expert</p>
-                  <h5><a href="tel:0302500386">( 030 ) 250 - 0386</a></h5>
-                </div>
-              </div> -->
-                    <div class="main-menu-wrapper__search-cat">
-                        <a href="#" class="main-menu-wrapper__search search-toggler icon-magnifying-glass"></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-
-    <div class="stricky-header stricked-menu main-menu">
-        <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
-    </div><!-- /.stricky-header -->
-
-    <!--Page Header Start-->
-    <section class="page-header">
-        <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)">
-        </div>
-        <div class="page-header-shape-1 float-bob-x-6"></div>
-        <div class="page-header-shape-2 float-bob-x-7"></div>
-        <div class="container">
-            <div class="page-header__inner">
-                <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="index.html">Home</a></li>
-                    <li><span>/</span></li>
-                    <li>about</li>
+  <header class="main-header clearfix">
+    <nav class="main-menu clearfix">
+      <div class="main-menu-wrapper clearfix">
+        <div class="main-menu-wrapper__left">
+          <div class="main-menu-wrapper__logo">
+            <a routerLink="/">
+              <img src="assets/images/resources/logo-3.png" style="height: 50px; width: 120px"
+                   alt="Constant">
+            </a>
+          </div>
+          <div class="main-menu-wrapper__main-menu">
+            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+            <ul class="main-menu__list">
+              <li class="">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="">
+                <a routerLink="/about-us" routerLinkActive="active"
+                   [routerLinkActiveOptions]="{exact: true}">Corporate</a>
+              </li>
+              <li class="dropdown">
+                <a routerLink="/services" routerLinkActive="active"
+                   [routerLinkActiveOptions]="{exact: true}">Services</a>
+                <ul>
+                  <li>
+                    <a routerLink="/sec-trading" routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact: true}">Securities Trading</a>
+                  </li>
+                  <li class="dropdown">
+                    <a routerLink="/fin-cap-market" routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact: true}">Financings <br>Capital Markets</a>
+                  </li>
+                  <li>
+                    <a routerLink="/invest-research" routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact: true}">Investment Research</a>
+                  </li>
+                  <li>
+                    <a routerLink="/invest-advisory" routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact: true}">Investment Advisory</a>
+                  </li>
+                  <li>
+                    <a routerLink="/stra-advisory" routerLinkActive="active"
+                       [routerLinkActiveOptions]="{exact: true}">Strategic Advisory</a>
+                  </li>
+                  <li><a routerLink="/princ-investment" routerLinkActive="active"
+                         [routerLinkActiveOptions]="{exact: true}">Private Equity</a></li>
                 </ul>
-                <h2>Profile</h2>
-            </div>
-        </div>
-    </section>
-    <!--Page Header End-->
+              </li>
 
-    <!--Work Together Two Start-->
-    <section class="work-together-two">
-        <div class="container">
-            <div class="row">
-                <!-- <div class="col-xl-6 col-lg-6">
-                    <div class="work-together-two__left wow slideInLeft" data-wow-delay="100ms"
-                        data-wow-duration="2500ms">
-                        <div class="work-together-two__img">
-                            <img src="assets/images/resources/work-together-two-img-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-xl-10 col-lg-10">
-                    <div class="work-together-tow__right">
-                        <div class="section-title text-left">
-                            <!-- <span class="section-title__tagline">get to know us</span> -->
-                            <!-- <h2 class="section-title__title">Profile</h2> -->
-                        </div>
-                        <div class="work-together-tow__content">
-                            <div class="work-together-tow__icon">
-                                <span class="icon-recruit"></span>
-                            </div>
-                            <h3 class="work-together-tow__text">
-                                Constant Capital (Ghana) Limited is a registered broker-dealer and investment advisor,
-                                licensed and regulated by the Securities and Exchange Commission (SEC).
-                            </h3>
-                        </div>
-                        <p class="work-together-tow__text-2">
-                            Constant Capital is an independent securities firm providing expertise in securities
-                            trading and brokerage, investment banking, finance and capital markets to corporates,
-                            institutional investors, asset managers, high net-worth investors and other clients.
-                            Our professionals deliver the experience and insights required to access markets,
-                            raise capital, mitigate risk and acquire or dispose of assets for clients.
-                            Constant Capital offers a broad range of investment banking services to private and
-                            public clients. We work closely with clients, to develop innovative solutions that
-                            effectively meet their financing, investment and strategic priorities.
-                        </p>
-                        <!-- <a routerLink="/corporate" class="thm-btn work-together-tow__btn">Discover More</a> -->
-                    </div>
-                </div>
-            </div>
+              <li class="">
+                <a routerLink="research-center" routerLinkActive="active"
+                   [routerLinkActiveOptions]="{exact: true}">Research</a>
+                <!-- <ul>
+      <li><a href="cases.html">Cases</a></li>
+      <li><a href="cases-2.html">Cases Two</a></li>
+      <li><a href="case-details.html">Case Details</a></li>
+    </ul> -->
+              </li>
+              <li class="">
+                <a routerLink="/client-center" routerLinkActive="active"
+                   [routerLinkActiveOptions]="{exact: true}">Client Center</a>
+              </li>
+              <li>
+                <a routerLink="/contact-us" routerLinkActive="active"
+                   [routerLinkActiveOptions]="{exact: true}">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </section>
-    <!--Work Together Two End-->
+        <div class="main-menu-wrapper__right">
+          <!-- <div class="main-menu-wrapper__call">
+      <div class="main-menu-wrapper__call-icon">
+        <span class="icon-phone-call"></span>
+      </div>
+      <div class="main-menu-wrapper__call-number">
+        <p>Need help? Talk to an expert</p>
+        <h5><a href="tel:0302500386">( 030 ) 250 - 0386</a></h5>
+      </div>
+    </div> -->
+          <div class="main-menu-wrapper__search-cat">
+            <a href="#" class="main-menu-wrapper__search search-toggler icon-magnifying-glass"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <!--Quality Work Start-->
-    <section class="quality-work">
-        <div class="quality-work-shape-1 float-bob-x-2"></div>
-        <div class="quality-work-shape-2 float-bob-x-2"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-lg-7">
-                    <div class="quality-work__left">
-                        <div class="section-title text-left">
-                            <span class="section-title__tagline">meet our agency</span>
-                            <h2 class="section-title__title">Work that Meet <br> your Expectations</h2>
-                        </div>
-                        <div class="quality-work__tab-box tabs-box">
-                            <ul class="tab-buttons clearfix list-unstyled">
-                                <li data-tab="#solutions" class="tab-btn active-btn"><span>new solutions</span></li>
-                                <li data-tab="#work" class="tab-btn"><span>smart work</span></li>
-                            </ul>
-                            <div class="tabs-content">
-                                <!--tab-->
-                                <div class="tab active-tab" id="solutions">
-                                    <div class="tab-content__inner">
-                                        <div class="tab-content__img">
-                                            <!-- <img src="assets/images/resources/tab-content-img-1.jpg" alt=""> -->
-                                        </div>
-                                        <div class="tab-content__contnet">
-                                            <h4 class="tab-content__title">Pellentesque pharetra ornare dui</h4>
-                                            <p class="tab-content__text">There are many variations of pas of available
-                                                but the majority have suffered alteration in some form, or words which
-                                                don look.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--tab-->
-                                <div class="tab " id="work">
-                                    <div class="tab-content__inner">
-                                        <div class="tab-content__img">
-                                            <!-- <img src="assets/images/resources/tab-content-img-1.jpg" alt=""> -->
-                                        </div>
-                                        <div class="tab-content__contnet">
-                                            <h4 class="tab-content__title">Pellentesque pharetra ornare dui</h4>
-                                            <p class="tab-content__text">There are many variations of pas of available
-                                                but the majority have suffered alteration in some form, or words which
-                                                don look.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-5">
-                    <div class="quality-work__right">
-                        <ul class="quality-work__points list-unstyled">
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-checking"></span>
-                                </div>
-                                <div class="text">
-                                    <h4>Nulla Posuere Tortor eu</h4>
-                                    <p>There are many variations of passages of available but the majority have simply
-                                        free text suffered.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="icon">
-                                    <span class="icon-conversation"></span>
-                                </div>
-                                <div class="text">
-                                    <h4>Morbi nec Finibus mis</h4>
-                                    <p>There are many variations of passages of available but the majority have simply
-                                        free text suffered.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Quality Work End-->
+  <div class="stricky-header stricked-menu main-menu">
+    <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+  </div><!-- /.stricky-header -->
 
-    <!--Our Mission Two Start-->
-    <section class="our-mission-two our-mission-three">
-        <div class="our-mission-two-bg-box">
-            <div class="our-mission-two-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
-                style="background-image: url(assets/images/backgrounds/our-mission-bg.jpg);"></div>
-        </div>
-        <div class="our-mission-shape-1 shapemover2"></div>
-        <div class="our-mission-shape-2 shapemover2"></div>
-        <div class="our-mission-shape-3 shapemover2"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-8">
-                    <div class="our-mission-two__left">
-                        <h2 class="our-mission-two__title">Mission is to Protect your <br> Businesses & Much More</h2>
-                        <a routerLink="/about-us" class="thm-btn our-mission-two__btn">Discover More</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4">
-                    <div class="our-mission-two__right">
-                        <div class="our-mission-two__video-link">
-                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                <div class="our-mission-two__video-icon">
-                                    <span class="fa fa-play"></span>
-                                    <i class="ripple"></i>
-                                </div>
-                            </a>
-                            <h3 class="our-mission-two__video-text">Watch video</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Our Mission Two End-->
+  <!--Page Header Start-->
+  <section class="page-header">
+    <div class="page-header-bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg)"></div>
+    <div class="page-header-shape-1 float-bob-x-6"></div>
+    <div class="page-header-shape-2 float-bob-x-7"></div>
+    <div class="container">
+      <div class="page-header__inner">
+        <ul class="thm-breadcrumb list-unstyled">
+<!--          <li><a href="index.html">Home</a></li>-->
+<!--          <li><span>/</span></li>-->
+<!--          <li>about</li>-->
+        </ul>
+        <h2>Profile</h2>
+      </div>
+    </div>
+  </section>
+  <!--Page Header End-->
 
-    <!--Team One Start-->
-    <section class="team-one">
-        <div class="team-one__container">
-            <div class="section-title text-center">
-                <span class="section-title__tagline">professional people</span>
-                <h2 class="section-title__title">Meet Our Experts</h2>
+  <!--Work Together Two Start-->
+  <section class="work-together-two">
+    <div class="container">
+      <div class="row">
+        <!-- <div class="col-xl-6 col-lg-6">
+            <div class="work-together-two__left wow slideInLeft" data-wow-delay="100ms"
+                data-wow-duration="2500ms">
+                <div class="work-together-two__img">
+                    <img src="assets/images/resources/work-together-two-img-1.jpg" alt="">
+                </div>
             </div>
-            <div class="row">
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                    <!--Team One Single-->
-                    <div class="team-one__single">
-                        <div class="team-one__img"   (click)="openModal()">
-                            <span >
+        </div> -->
+        <div class="col-xl-10 col-lg-10">
+          <div class="work-together-tow__right">
+            <div class="section-title text-left">
+              <!-- <span class="section-title__tagline">get to know us</span> -->
+              <!-- <h2 class="section-title__title">Profile</h2> -->
+            </div>
+            <div class="work-together-tow__content">
+              <div class="work-together-tow__icon">
+                <span class="icon-recruit"></span>
+              </div>
+              <h3 class="work-together-tow__text">
+                Constant Capital (Ghana) Limited is a registered broker-dealer and investment advisor,
+                licensed and regulated by the Securities and Exchange Commission (SEC).<br>
+                We are in advanced stages of the licensing process for dealing membership of the Ghana Stock Exchange
+                (GSE) and depository participation (DP) at the Central Securities Depository (CSD). Constant Capital is
+                also a member of the Ghana Securities Industry Association (GSIA).
+              </h3>
+            </div>
+            <p class="work-together-tow__text-2">
+              Constant Capital is a valued partner for many corporates and individual clients and institutional
+              counter parties. We are active in five principal areas: securities trading and brokerage, investment
+              banking, investment research, strategic and financial advisory, and investment advisory services -
+              creative and idea-driven solutions through a robust platform.
+            </p>
+            <p class="work-together-tow__text-3">
+              We provide our high net-worth and other retail and institutional clients investment advisory and
+              management services and access to a broad menu of investment products and solutions – fixed income and
+              equities brokerage and trading, third party investment products such as mutual funds, IPOs, saving
+              instruments and alternative investments. Our research analysts track and analyze in detail, the
+              performance of the economy, markets, securities and different investment vehicles and funds, with a view
+              to helping generate superior returns for our clients.
+            </p>
+            <!-- <a routerLink="/corporate" class="thm-btn work-together-tow__btn">Discover More</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Work Together Two End-->
+
+  <!--Quality Work Start-->
+  <section class="quality-work">
+    <div class="quality-work-shape-1 float-bob-x-2"></div>
+    <div class="quality-work-shape-2 float-bob-x-2"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-7 col-lg-7">
+          <div class="quality-work__left">
+            <div class="section-title text-left">
+              <span class="section-title__tagline">meet our agency</span>
+              <h2 class="section-title__title">Work that Meet <br> your Expectations</h2>
+            </div>
+            <div class="quality-work__tab-box tabs-box">
+              <ul class="tab-buttons clearfix list-unstyled">
+                <li data-tab="#solutions" class="tab-btn active-btn"><span>new solutions</span></li>
+                <li data-tab="#work" class="tab-btn"><span>smart work</span></li>
+              </ul>
+              <div class="tabs-content">
+                <!--tab-->
+                <div class="tab active-tab" id="solutions">
+                  <div class="tab-content__inner">
+                    <div class="tab-content__img">
+                      <!-- <img src="assets/images/resources/tab-content-img-1.jpg" alt=""> -->
+                    </div>
+                    <div class="tab-content__contnet">
+                      <h4 class="tab-content__title">Pellentesque pharetra ornare dui</h4>
+                      <p class="tab-content__text">There are many variations of pas of available
+                        but the majority have suffered alteration in some form, or words which
+                        don look.</p>
+                    </div>
+                  </div>
+                </div>
+                <!--tab-->
+                <div class="tab " id="work">
+                  <div class="tab-content__inner">
+                    <div class="tab-content__img">
+                      <!-- <img src="assets/images/resources/tab-content-img-1.jpg" alt=""> -->
+                    </div>
+                    <div class="tab-content__contnet">
+                      <h4 class="tab-content__title">Pellentesque pharetra ornare dui</h4>
+                      <p class="tab-content__text">There are many variations of pas of available
+                        but the majority have suffered alteration in some form, or words which
+                        don look.</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-lg-5">
+          <div class="quality-work__right">
+            <ul class="quality-work__points list-unstyled">
+              <li>
+                <div class="icon">
+                  <span class="icon-checking"></span>
+                </div>
+                <div class="text">
+                  <h4>Nulla Posuere Tortor eu</h4>
+                  <p>There are many variations of passages of available but the majority have simply
+                    free text suffered.</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <span class="icon-conversation"></span>
+                </div>
+                <div class="text">
+                  <h4>Morbi nec Finibus mis</h4>
+                  <p>There are many variations of passages of available but the majority have simply
+                    free text suffered.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Quality Work End-->
+
+  <!--Our Mission Two Start-->
+  <section class="our-mission-two our-mission-three">
+    <div class="our-mission-two-bg-box">
+      <div class="our-mission-two-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+           style="background-image: url(assets/images/backgrounds/our-mission-bg.jpg);"></div>
+    </div>
+    <div class="our-mission-shape-1 shapemover2"></div>
+    <div class="our-mission-shape-2 shapemover2"></div>
+    <div class="our-mission-shape-3 shapemover2"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 col-lg-8">
+          <div class="our-mission-two__left">
+            <h2 class="our-mission-two__title">Mission is to Protect your <br> Businesses & Much More</h2>
+            <a routerLink="/about-us" class="thm-btn our-mission-two__btn">Discover More</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4">
+          <div class="our-mission-two__right">
+            <div class="our-mission-two__video-link">
+              <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                <div class="our-mission-two__video-icon">
+                  <span class="fa fa-play"></span>
+                  <i class="ripple"></i>
+                </div>
+              </a>
+              <h3 class="our-mission-two__video-text">Watch video</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Our Mission Two End-->
+
+  <!--Team One Start-->
+  <section class="team-one">
+    <div class="team-one__container">
+      <div class="section-title text-center">
+        <span class="section-title__tagline">professional people</span>
+        <h2 class="section-title__title">Meet Our Experts</h2>
+      </div>
+      <div class="row">
+        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+          <!--Team One Single-->
+          <div class="team-one__single">
+            <div class="team-one__img" (click)="openModal()">
+                            <span>
                                 <img src="assets/images/team/team-1-5.jpg" alt="" (click)="openModal()">
                             </span>
-                            <div class="team-one__content">
-                                <h3 class="team-one__name">Beb Ahiaglo</h3>
-                                <p class="team-one__title">Managing Director</p>
-                            </div>
-                            <ul class="list-unstyled team-one__social">
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                    <!--Team One Single-->
-                    <div class="team-one__single" >
-                        <div class="team-one__img" (click)="openModal()">
- 
-                            <img src="assets/images/team/team-1-6.jpg" alt="">
-                            <div class="team-one__content">
-                                <h3 class="team-one__name">Ike Echeruo</h3>
-                                <p class="team-one__title"> Managing Partner</p>
-                            </div>
-                            <ul class="list-unstyled team-one__social">
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                    <!--Team One Single-->
-                    <!-- <div class="team-one__single">
-                        <div class="team-one__img">
-                            <img src="assets/images/team/team-1-1.jpg" alt="">
-                            <div class="team-one__content">
-                                <h3 class="team-one__name">Sarah Albert</h3>
-                                <p class="team-one__title">Consultant</p>
-                            </div>
-                            <ul class="list-unstyled team-one__social">
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                </div>
-
-                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                    <!--Team One Single-->
-                    <!-- <div class="team-one__single">
-                        <div class="team-one__img">
-                            <img src="assets/images/team/team-1-3.jpg" alt="">
-                            <div class="team-one__content">
-                                <h3 class="team-one__name">Christine Eve</h3>
-                                <p class="team-one__title">Manager</p>
-                            </div>
-                            <ul class="list-unstyled team-one__social">
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div> -->
-                </div>
-
+              <div class="team-one__content">
+                <h3 class="team-one__name">Beb Ahiaglo</h3>
+                <p class="team-one__title">Managing Director</p>
+              </div>
+              <ul class="list-unstyled team-one__social">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
             </div>
-        </div>
-    </section>
-    <!--Team One End-->
 
-    <!--Testimonial One Start-->
-    <section class="testimonial-one testimonial-two">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testimonial-one__carousel owl-the owl-carousel">
-                        <!--Testimonial One Single-->
-                        <div class="testimonial-one__single">
-                            <div class="testimonial-one__client-info">
-                                <div class="testimonial-one__client-img">
-                                    <img src="assets/images/testimonial/testimonial-1-client-img-1.jpg" alt="">
-                                    <div class="testimonial-one__quote">
-                                        <img src="assets/images/icon/quote-icon.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-one__content">
-                                <p class="testimonial-one__text">This is due to their excellent service, competitive
-                                    pricing and customer support. It’s throughly refresing to get such a personal touch.
-                                    Duis aute lorem ipsum is simply free text irure dolor in reprehenderit in esse nulla
-                                    pariatur.</p>
-                                <h4 class="testimonial-one__client-name">Aleesha Brown</h4>
-                                <p class="testimonial-one__client-title">Customers</p>
-                            </div>
-                        </div>
-                        <!--Testimonial One Single-->
-                        <div class="testimonial-one__single">
-                            <div class="testimonial-one__client-info">
-                                <div class="testimonial-one__client-img">
-                                    <img src="assets/images/testimonial/testimonial-1-client-img-2.jpg" alt="">
-                                    <div class="testimonial-one__quote">
-                                        <img src="assets/images/icon/quote-icon.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-one__content">
-                                <p class="testimonial-one__text">This is due to their excellent service, competitive
-                                    pricing and customer support. It’s throughly refresing to get such a personal touch.
-                                    Duis aute lorem ipsum is simply free text irure dolor in reprehenderit in esse nulla
-                                    pariatur.</p>
-                                <h4 class="testimonial-one__client-name">Aleesha Brown</h4>
-                                <p class="testimonial-one__client-title">Customers</p>
-                            </div>
-                        </div>
-                        <!--Testimonial One Single-->
-                        <div class="testimonial-one__single">
-                            <div class="testimonial-one__client-info">
-                                <div class="testimonial-one__client-img">
-                                    <img src="assets/images/testimonial/testimonial-1-client-img-3.jpg" alt="">
-                                    <div class="testimonial-one__quote">
-                                        <img src="assets/images/icon/quote-icon.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="testimonial-one__content">
-                                <p class="testimonial-one__text">This is due to their excellent service, competitive
-                                    pricing and customer support. It’s throughly refresing to get such a personal touch.
-                                    Duis aute lorem ipsum is simply free text irure dolor in reprehenderit in esse nulla
-                                    pariatur.</p>
-                                <h4 class="testimonial-one__client-name">Aleesha Brown</h4>
-                                <p class="testimonial-one__client-title">Customers</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+          <!--Team One Single-->
+          <div class="team-one__single">
+            <div class="team-one__img" (click)="openModal()">
+
+              <img src="assets/images/team/team-1-6.jpg" alt="">
+              <div class="team-one__content">
+                <h3 class="team-one__name">Ike Echeruo</h3>
+                <p class="team-one__title"> Managing Partner</p>
+              </div>
+              <ul class="list-unstyled team-one__social">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              </ul>
             </div>
+          </div>
         </div>
-    </section>
-    <!--Testimonial One End-->
 
-    <!--Brand One Start-->
-    <section class="brand-one">
-        <div class="container">
-            <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
+        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+          <!--Team One Single-->
+          <div class="team-one__single">
+              <div class="team-one__img">
+                  <img src="assets/images/team/team-1-1.jpg" alt="">
+                  <div class="team-one__content">
+                      <h3 class="team-one__name">Sarah Albert</h3>
+                      <p class="team-one__title">Consultant</p>
+                  </div>
+                  <ul class="list-unstyled team-one__social">
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+          <!--Team One Single-->
+          <div class="team-one__single">
+              <div class="team-one__img">
+                  <img src="assets/images/team/team-1-3.jpg" alt="">
+                  <div class="team-one__content">
+                      <h3 class="team-one__name">Christine Eve</h3>
+                      <p class="team-one__title">Manager</p>
+                  </div>
+                  <ul class="list-unstyled team-one__social">
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                      <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!--Team One End-->
+
+  <!--Testimonial One Start-->
+  <section class="testimonial-one testimonial-two">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="testimonial-one__carousel owl-the owl-carousel">
+            <!--Testimonial One Single-->
+            <div class="testimonial-one__single">
+              <div class="testimonial-one__client-info">
+                <div class="testimonial-one__client-img">
+                  <img src="assets/images/testimonial/testimonial-1-client-img-1.jpg" alt="">
+                  <div class="testimonial-one__quote">
+                    <img src="assets/images/icon/quote-icon.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-one__content">
+                <p class="testimonial-one__text">This is due to their excellent service, competitive
+                  pricing and customer support. It’s throughly refresing to get such a personal touch.
+                  Duis aute lorem ipsum is simply free text irure dolor in reprehenderit in esse nulla
+                  pariatur.
+                </p>
+                <h4 class="testimonial-one__client-name">Aleesha Brown</h4>
+                <p class="testimonial-one__client-title">Customers</p>
+              </div>
+            </div>
+            <!--Testimonial One Single-->
+            <div class="testimonial-one__single">
+              <div class="testimonial-one__client-info">
+                <div class="testimonial-one__client-img">
+                  <img src="assets/images/testimonial/testimonial-1-client-img-2.jpg" alt="">
+                  <div class="testimonial-one__quote">
+                    <img src="assets/images/icon/quote-icon.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-one__content">
+                <p class="testimonial-one__text">This is due to their excellent service, competitive
+                  pricing and customer support. It’s throughly refresing to get such a personal touch.
+                  Duis aute lorem ipsum is simply free text irure dolor in reprehenderit in esse nulla
+                  pariatur.</p>
+                <h4 class="testimonial-one__client-name">Aleesha Brown</h4>
+                <p class="testimonial-one__client-title">Customers</p>
+              </div>
+            </div>
+            <!--Testimonial One Single-->
+            <div class="testimonial-one__single">
+              <div class="testimonial-one__client-info">
+                <div class="testimonial-one__client-img">
+                  <img src="assets/images/testimonial/testimonial-1-client-img-3.jpg" alt="">
+                  <div class="testimonial-one__quote">
+                    <img src="assets/images/icon/quote-icon.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="testimonial-one__content">
+                <p class="testimonial-one__text">This is due to their excellent service, competitive
+                  pricing and customer support. It’s throughly refresing to get such a personal touch.
+                  Duis aute lorem ipsum is simply free text irure dolor in reprehenderit in esse nulla
+                  pariatur.</p>
+                <h4 class="testimonial-one__client-name">Aleesha Brown</h4>
+                <p class="testimonial-one__client-title">Customers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Testimonial One End-->
+
+  <!--Brand One Start-->
+  <section class="brand-one">
+    <div class="container">
+      <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 100, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
                 "0": {
                     "spaceBetween": 30,
                     "slidesPerView": 2
@@ -463,69 +470,68 @@
                     "slidesPerView": 5
                 }
             }}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-1.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-2.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-3.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-4.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-5.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-1.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-2.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-3.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-4.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="assets/images/brand/brand-1-5.png" alt="">
-                    </div><!-- /.swiper-slide -->
-                </div>
-            </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-1.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-2.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-3.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-4.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-5.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-1.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-2.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-3.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-4.png" alt="">
+          </div><!-- /.swiper-slide -->
+          <div class="swiper-slide">
+            <img src="assets/images/brand/brand-1-5.png" alt="">
+          </div><!-- /.swiper-slide -->
         </div>
-    </section>
-    <!--Brand One End-->
+      </div>
+    </div>
+  </section>
+  <!--Brand One End-->
 
-   
 
 </div>
 
 <div id="teams" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-aria-hidden="true">
-<div class="modal-dialog modal-lg">
+     aria-hidden="true">
+  <div class="modal-dialog modal-lg">
     <div class="modal-content">
-        ...
+      ...
     </div>
-</div>
+  </div>
 </div>
 
 <div class="search-popup">
-    <div class="search-popup__overlay search-toggler"></div>
-    <!-- /.search-popup__overlay -->
-    <div class="search-popup__content">
-        <form action="#">
-            <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-            <input type="text" id="search" placeholder="Search Here..." />
-            <button type="submit" aria-label="search submit" class="thm-btn">
-                <i class="icon-magnifying-glass"></i>
-            </button>
-        </form>
-    </div>
-    <!-- /.search-popup__content -->
+  <div class="search-popup__overlay search-toggler"></div>
+  <!-- /.search-popup__overlay -->
+  <div class="search-popup__content">
+    <form action="#">
+      <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+      <input type="text" id="search" placeholder="Search Here..."/>
+      <button type="submit" aria-label="search submit" class="thm-btn">
+        <i class="icon-magnifying-glass"></i>
+      </button>
+    </form>
+  </div>
+  <!-- /.search-popup__content -->
 </div>
 <!-- /.search-popup -->
 

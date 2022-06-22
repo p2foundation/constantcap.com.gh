@@ -17,7 +17,8 @@ import { ServicesComponent } from './pages/services/services.component';
 import { StraAdvisoryComponent } from './pages/services/stra-advisory/stra-advisory.component';
 
 const routes: Routes = [
-  {path:'', component: HomePageComponent},
+  {path:'home', component: HomePageComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'about-us', component: CorporateComponent},
   {path: 'team', component: TeamComponent},
   {path: 'services', component: ServicesComponent},

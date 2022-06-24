@@ -20,6 +20,7 @@ import { InvestAdvisoryComponent } from './pages/services/invest-advisory/invest
 import { StraAdvisoryComponent } from './pages/services/stra-advisory/stra-advisory.component';
 import { PrincInvestmentComponent } from './pages/services/princ-investment/princ-investment.component';
 import { TeamComponent } from './pages/corporate/team/team.component';
+import { NgbModule} from "@ng-bootstrap/ng-bootstrap";
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { TeamComponent } from './pages/corporate/team/team.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
